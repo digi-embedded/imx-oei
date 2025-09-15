@@ -25,6 +25,8 @@ static struct clk_root_cfg clk_root_cfgs[] = {
 	{ CLOCK_ROOT_LPUART1, CLOCK_SRC_OSC24M, 1}, /* 24MHz */
 #elif (BOARD_DEBUG_UART_INSTANCE == 2)
 	{ CLOCK_ROOT_LPUART2, CLOCK_SRC_OSC24M, 1}, /* 24MHz */
+#elif (BOARD_DEBUG_UART_INSTANCE == 6)
+	{ CLOCK_ROOT_LPUART6, CLOCK_SRC_OSC24M, 1}, /* 24MHz */
 #endif
 #endif
 };

@@ -52,7 +52,7 @@
 /* Defines */
 
 /*! Config for UART instance */
-#define BOARD_DEBUG_UART_INSTANCE    2U
+#define BOARD_DEBUG_UART_INSTANCE    6U
 /*! Config for UART baudrate */
 #define BOARD_DEBUG_UART_BAUDRATE    115200U
 
