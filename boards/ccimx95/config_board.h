@@ -2,6 +2,7 @@
 ** ###################################################################
 **
 ** Copyright 2023-2024 NXP
+** Copyright 2025-2026 Digi International Inc.
 **
 ** Redistribution and use in source and binary forms, with or without modification,
 ** are permitted provided that the following conditions are met:
@@ -52,7 +53,7 @@
 /* Defines */
 
 /*! Config for UART instance */
-#define BOARD_DEBUG_UART_INSTANCE    6U
+#define BOARD_DEBUG_UART_INSTANCE    1U
 /*! Config for UART baudrate */
 #define BOARD_DEBUG_UART_BAUDRATE    115200U
 
